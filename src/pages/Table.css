@@ -1,0 +1,58 @@
+.table-container {
+    position: absolute;
+    top: 790px;
+    left: 500px;
+    width: 867px;
+    height: 635px;
+    overflow-y: auto;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: white;
+    border-radius: 5px;
+
+  }
+  
+  .fixed-header-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .fixed-header-table th,
+  .fixed-header-table td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .fixed-header-table th {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+  }
+  
+
+  .fixed-header-table tfoot {
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    z-index: 1;
+    border-top: 2px solid grey;
+  }
+  
+  .fixed-header-table tfoot .total-amount {
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1), -6px -6px 12px rgba(255, 255, 255, 0.8);
+    padding: 10px 15px;
+
+    color: #555;
+
+    font-size: 1rem;
+  }
+
+
+  .fixed-header-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }

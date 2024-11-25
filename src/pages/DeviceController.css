@@ -1,0 +1,383 @@
+
+.device-text1{
+    position: absolute;
+    font-weight: bold;
+    font-size: 28px;
+    top:80px;
+    left:390px
+    
+}
+.search-bar2 {
+    position: absolute;
+    top: 141px;
+    left: 385px;
+    width: 600px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 0 15px; 
+
+
+}
+
+.search-input1 {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    padding-left: 40px; 
+    background-color: transparent;
+    font-family: "Font Awesome 5 Free", Arial, sans-serif; 
+  }
+  
+
+input[type="text1"]{
+position:absolute;
+left:-16px;
+font-size: 21px;
+
+}
+
+.search-bar-button{
+    position: absolute;
+    left: 635px;
+    height: 56px;
+    width: 95px;
+    border-radius: 15px 8px 8px 5px;
+    background-color: rgb(76, 228, 76);
+    border: none;
+
+}
+
+.device-text{
+    position: absolute;
+    top: 269px;
+    left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.status-text{
+    position: absolute;
+    top: 269px;
+    left: 1040px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.type-device{
+    position: absolute;
+    top: 350px;
+    left: 395px;
+    font-weight: bold;
+}
+.type .type-button{
+    background-color: rgb(74, 248, 74);
+    margin-left: 35px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border:none;
+   
+}
+
+.Hub input{
+    position: absolute;
+    left: 250px;
+    background-color: white;
+    width: 220px;
+    height: 41px;
+    border-radius: 10px;
+    top: 400px;
+    left: 538px;
+    border: none;
+}
+
+ .Hub-ID{
+    position: absolute;
+    top:410px;
+    left:398px;
+    font-weight: bold;
+}
+
+.Device input{
+    position: absolute;
+
+    background-color: rgb(255, 255, 255);
+    width: 220px;
+    height: 41px;
+    border-radius: 10px;
+    top: 460px;
+    left: 538px;
+    border: none;
+}
+
+.device-ID{
+    font-weight: bold;
+
+    position: absolute;
+    top:470px;
+    left:400px;
+}
+.Maintenance{
+    position: absolute;
+    top:350px;
+    left: 850px;
+
+  
+}
+
+.Maintenance .maintainence1{
+    width: 210px;
+    height: 31px;
+    border:none;
+    border-radius: 10px;
+}
+
+.Maintenance-working{
+    position:absolute;
+    top:350px;
+    left:1100px;
+    
+}
+
+.Maintenance-working .maintainence2{
+    width: 210px;
+    height: 31px;
+    border:none;
+    border-radius: 10px;
+}
+
+.Hub-Name{
+    position: absolute;
+    top: 412px;
+    left: 870px;
+    font-weight: bold;
+}
+
+.HubName input{
+    position: absolute;
+    top:408px;
+    left: 1000px;
+    width: 210px;
+    height: 31px;
+    border:none;
+    border-radius: 8px;
+
+}
+.jobstatus-box{
+    position: absolute;
+    top: 612px;
+    left: 402px;
+    width: 890px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  
+  .text1{
+    position: absolute;
+    top: 15px;
+    left:30px;
+    font-size: 20px;
+
+    font-weight: bold;
+    
+  }
+
+  .sub-text1{
+    position: absolute;
+    top:60px;
+    left:30px
+
+  }
+
+  .sub-text2{
+    position: absolute;
+    top:80px;
+    left:30px;
+    color:rgba(11, 139, 203, 0.904);
+
+  }
+
+  .loading{
+    position: absolute;
+    top:90px;
+    left:30px;
+   width: 90%;
+  }
+
+
+  .Start-Time{
+    position: absolute;
+    top:150px;
+    left: 30px;
+    
+  }
+  .Time1{
+    position: absolute;
+    top:170px;
+    left: 30px;
+    color: grey;
+
+  }
+
+  .End-Time{
+    position: absolute;
+    top: 150px;
+    left: 750px;
+
+  }
+
+  .Time2{
+    position: absolute;;
+    top:170px;
+    left:750px
+
+  }
+
+  .Live-Monitor{
+
+    position: absolute;
+    top:900px;
+    left:720px;
+    font-weight: bold;
+    font-size: 25px;
+
+  }
+
+  .button-1{
+    position: absolute;
+    top: 1000px;
+    left: 400px;
+
+  }
+
+  .button-1 .button1{
+    margin-left: 20px;
+    width: 123px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    border: none;
+  }
+
+
+  .button-2{
+    position: absolute;
+    top: 1000px;
+    left: 700px;
+
+  }
+  .button-2 .button2{
+    margin-left: 20px;
+    width: 123px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    border: none;
+  }
+
+  .button-3{
+    position: absolute;
+    top: 1000px;
+    left: 1010px;
+
+  }
+  .button-3 .button3{
+    margin-left: 20px;
+    width: 123px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    border: none;
+  }
+  .Quick-Actions{
+    position: absolute;
+    top:1100px;
+    left:725px;
+    font-weight: bold;
+    font-size: 25px;
+
+
+  }
+
+  .Q-test{
+    position: absolute;
+    top: 1200px;
+    left:400px;
+
+
+  }
+
+  .button-Q .buttonQ{
+    position: absolute;
+    top:1190px;
+    left: 500px;
+    width: 123px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    border: none;
+  }
+
+  .button-Q1 .buttonQ1{
+    position: absolute;
+    top:1189px;
+    left: 700px;
+    width: 123px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    border: none;
+  }
+
+  .button-Q2 .buttonQ2{
+    position: absolute;
+    top:1189px;
+    left: 900px;
+    width: 123px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    border: none;
+  }
+
+  .button-Q3 .buttonQ3{
+    position: absolute;
+    top:1189px;
+    left: 1100px;
+    width: 123px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    border: none;
+  }
+
+
+  .button-Q4 .buttonQ4{
+    position: absolute;
+    top:1300px;
+    left: 750px;
+    width: 123px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #1eea25;
+    border: none;
+    font-size: 20px;
+  }
+
+  .heardware{
+    position: absolute;
+    top: 1410px;
+    left: 720px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+

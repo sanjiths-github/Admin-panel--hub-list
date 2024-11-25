@@ -1,0 +1,27 @@
+.loading-container {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .loading-bar {
+    width: 100%;
+    height: 4px;
+    background-color: #d3d3d3; /* Grey background */
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .loading-progress {
+    height: 100%;
+    background-color: #308ffd; /* Blue progress */
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .loading-text {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+  }
+  

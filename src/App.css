@@ -1,0 +1,9 @@
+.content {
+   
+    padding: 20px; 
+    width: calc(100% - 345px); 
+    height: 100vh; 
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    box-sizing: border-box; 
+  }
