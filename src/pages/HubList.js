@@ -48,13 +48,13 @@ const HubList = () => {
   </div>
   <div className="box6">
     <div className="box-content">
-      <div className="main-text">Today</div>
+      <div className="main-text">Last Week</div>
       <div className="sub-text">79</div>
     </div>
   </div>
   <div className="box6">
     <div className="box-content">
-      <div className="main-text">Today</div>
+      <div className="main-text">Last Month</div>
       <div className="sub-text">200</div>
     </div>
   </div>
